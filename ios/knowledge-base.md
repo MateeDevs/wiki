@@ -18,6 +18,7 @@
 - :star: [Memory management in RxSwift – DisposeBag](http://adamborek.com/memory-managment-rxswift/) - How disposing in RxSwift works
 - :star: [LCE: Modeling Data Loading in RxJava](https://tech.instacart.com/lce-modeling-data-loading-in-rxjava-b798ac98d80) - Introduction to LCE (Loading/Content/Error) concept
 - [How to handle errors in RxSwift](http://adamborek.com/how-to-handle-errors-in-rxswift/) - Error handling in RxSwift
+- [RxSwift Made Easy: Working with Subjects](https://medium.com/swift2go/rxswift-part-2-working-with-subjects-34e35a058a2c) - Everything you need to know about RxSwift subjects
 - [Top mistakes in RxSwift you want to avoid](http://adamborek.com/top-7-rxswift-mistakes/) - Just don't do this!
 
 ## App architecture
@@ -59,6 +60,7 @@
 ## Testing
 - [Testing iOS Apps](http://merowing.info/2017/01/testing-ios-apps/) - Basic overview of testing iOS apps
 - [Test Driven Development Tutorial for iOS](https://www.raywenderlich.com/5522-test-driven-development-tutorial-for-ios-getting-started) - How to start with TDD
+- [RxSwift & MVVM](https://benoitpasquier.com/how-to-use-rxtests-to-test-mvvm/) - How to use RxTests to test your ViewModel
 
 ## Other materials
 - [iOS-factor](https://ios-factor.com/) - Set of best practices for writing iOS apps
