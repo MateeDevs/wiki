@@ -22,6 +22,7 @@
 - [Top mistakes in RxSwift you want to avoid](http://adamborek.com/top-7-rxswift-mistakes/) - Just don't do this!
 
 ## App architecture
+- :star: [Good iOS Application Architecture](https://slideslive.com/38897361/good-ios-application-architecture-en) - Overview of commonly used app architectures
 - :star: [RxSwift + MVVM: how to feed ViewModels](https://medium.com/blablacar-tech/rxswift-mvvm-66827b8b3f10) - How to design ViewModels with inputs and outputs
 - :star: [Using protocol compositon for dependency injection](http://merowing.info/2017/04/using-protocol-compositon-for-dependency-injection/) - Simple dependency injection with Dependencies typealias
 - [Avoiding singletons in Swift](https://www.swiftbysundell.com/articles/avoiding-singletons-in-swift/) - Why are singletons bad and how to avoid them
@@ -61,6 +62,13 @@
 - [Testing iOS Apps](http://merowing.info/2017/01/testing-ios-apps/) - Basic overview of testing iOS apps
 - [Test Driven Development Tutorial for iOS](https://www.raywenderlich.com/5522-test-driven-development-tutorial-for-ios-getting-started) - How to start with TDD
 - [RxSwift & MVVM](https://benoitpasquier.com/how-to-use-rxtests-to-test-mvvm/) - How to use RxTests to test your ViewModel
+
+## Continuous Integration
+- [Testing & CI on iOS](https://slideslive.com/38897365/testing-ci-on-ios-cz) - Nice introduction into the fastlane (13:20 - 28:45)
+- [fastlane - match](https://docs.fastlane.tools/actions/match/) - fastlane essentials 1/3 - sign your app
+- [fastlane - gym](https://docs.fastlane.tools/actions/gym/) - fastlane essentials 2/3 - build your app
+- [fastlane - pilot](https://docs.fastlane.tools/actions/pilot/) - fastlane essentials 3/3 - distribute your app
+- [GitHub Actions Documentation](https://help.github.com/en/actions) - Everything you need to know about GitHub Actions
 
 ## Other materials
 - [iOS-factor](https://ios-factor.com/) - Set of best practices for writing iOS apps
