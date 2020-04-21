@@ -25,7 +25,8 @@
 - :star: [Good iOS Application Architecture](https://slideslive.com/38897361/good-ios-application-architecture-en) - Overview of commonly used app architectures
 - :star: [RxSwift + MVVM: how to feed ViewModels](https://medium.com/blablacar-tech/rxswift-mvvm-66827b8b3f10) - How to design ViewModels with inputs and outputs
 - :star: [Using protocol compositon for dependency injection](http://merowing.info/2017/04/using-protocol-compositon-for-dependency-injection/) - Simple dependency injection with Dependencies typealias
-- [Avoiding singletons in Swift](https://www.swiftbysundell.com/articles/avoiding-singletons-in-swift/) - Why are singletons bad and how to avoid them
+- [Avoiding singletons in Swift](https://www.swiftbysundell.com/articles/avoiding-singletons-in-swift/) - Why singletons are bad and how to avoid them
+- [Clean Architecture and MVVM on iOS](https://tech.olx.com/clean-architecture-and-mvvm-on-ios-c9d167d9f5b3) - Introduction into Clean Architecture principles
 - [fantastic ios architecture](https://github.com/onmyway133/fantastic-ios-architecture) - Exhaustive list of all iOS app architecture related materials
 
 ## Flow controllers
@@ -54,7 +55,7 @@
 - [MovieSwiftUI](https://github.com/Dimillian/MovieSwiftUI) - Example app using SwiftUI and Combine
 
 ## Debugging
-- [Intermediate Debugging with Xcode 8](https://www.raywenderlich.com/721-intermediate-debugging-with-xcode-8) - Introduction to Xcode Debugger
+- :star: [Intermediate Debugging with Xcode 8](https://www.raywenderlich.com/721-intermediate-debugging-with-xcode-8) - Introduction to Xcode Debugger
 - [Locating the source of a memory leak](https://medium.com/@xcadaverx/locating-the-source-of-a-memory-leak-712667bf8cd5) - How to find memory leaks in Xcode Debugger
 - [LifetimeTracker](https://github.com/krzysztofzablocki/LifetimeTracker) - Simple library for finding memory leaks and retain cycles
 
