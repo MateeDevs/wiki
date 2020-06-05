@@ -44,6 +44,7 @@
 - :star: [Scroll View Layouts With Interface Builder](https://useyourloaf.com/blog/scroll-view-layouts-with-interface-builder/) - Proper way to setup UIScrollView
 - :star: [How To Adopt Dark Mode In Your iOS App](https://www.fivestars.blog/code/ios-dark-mode-how-to.html) - Everything you need to know about the dark-mode
 - [Self-sizing Child Views](https://useyourloaf.com/blog/self-sizing-child-views/) - Automatic height adjustment when composing views
+- [Container View Controllers](https://useyourloaf.com/blog/container-view-controllers/) - How to split massive view controller into multiple view controllers
 - [Auto layout magic: Content sizing priorities](https://krakendev.io/blog/autolayout-magic-like-harry-potter-but-real) - Content hugging vs content compression resistance
 - [Easy Skeezy Date Formatting for Swift and Objective-C](https://nsdateformatter.com/) - Helper for checking your date formatting
 - [Backwards compatibility for iOS 13 system colors](https://noahgilmore.com/blog/dark-mode-uicolor-compatibility/) - How to use new dark-mode colors on older versions of iOS
