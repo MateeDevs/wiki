@@ -17,7 +17,7 @@
 - :star: [Thinking in RxSwift](http://adamborek.com/thinking-rxswift/) - Cool introduction into RxSwift
 - :star: [Memory management in RxSwift – DisposeBag](http://adamborek.com/memory-managment-rxswift/) - How disposing in RxSwift works
 - :star: [Better Error Handling With CompactMap](https://medium.com/@michaellong/rxswift-better-error-handling-with-compactmap-48a5d314d0f1) - How to handle errors easily in RxSwift
-- [How to handle errors in RxSwift](http://adamborek.com/how-to-handle-errors-in-rxswift/) - Error handling in RxSwift
+- [Surviving RxSwift](https://medium.com/better-programming/surviving-rxswift-d6bfe562fb22) - Best practices to not get overwhelmed by RxSwift
 - [RxSwift Made Easy: Working with Subjects](https://medium.com/swift2go/rxswift-part-2-working-with-subjects-34e35a058a2c) - Everything you need to know about RxSwift subjects
 - [Top mistakes in RxSwift you want to avoid](http://adamborek.com/top-7-rxswift-mistakes/) - Just don't do this!
 
