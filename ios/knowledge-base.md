@@ -61,10 +61,11 @@
 - [LifetimeTracker](https://github.com/krzysztofzablocki/LifetimeTracker) - Simple library for finding memory leaks and retain cycles
 
 ## Testing
-- [Testing iOS Apps](http://merowing.info/2017/01/testing-ios-apps/) - Basic overview of testing iOS apps
+- :star: [Testing iOS Apps](http://merowing.info/2017/01/testing-ios-apps/) - Basic overview of testing iOS apps
+- :star: [RxSwift & MVVM](https://benoitpasquier.com/how-to-use-rxtests-to-test-mvvm/) - How to test ViewModels with RxTests
+- [Testing Your RxSwift Code](https://www.raywenderlich.com/7408-testing-your-rxswift-code) - More complex RxSwift testing tutorial
 - [Test Driven Development Tutorial for iOS](https://www.raywenderlich.com/5522-test-driven-development-tutorial-for-ios-getting-started) - How to start with TDD
-- [RxSwift & MVVM](https://benoitpasquier.com/how-to-use-rxtests-to-test-mvvm/) - How to use RxTests to test your ViewModel
-- [Testing SwiftUI and Combine](https://www.youtube.com/watch?v=HGToxDuX_wY) - RxSwift+UIKit testing vs Combine+SwiftUI testing
+- [Language without Mocking Frameworks](https://blog.pragmaticengineer.com/swift-the-only-modern-language-with-no-mocking-framework/) - Why we don't have a mocking framework
 
 ## Continuous Integration
 - [Testing & CI on iOS](https://slideslive.com/38897365/testing-ci-on-ios-cz) - Nice introduction into the fastlane (13:20 - 28:45)
