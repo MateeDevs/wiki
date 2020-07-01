@@ -78,3 +78,4 @@
 - [iOS-factor](https://ios-factor.com/) - Set of best practices for writing iOS apps
 - [Awesome iOS](https://github.com/vsouza/awesome-ios) - Probably the biggest up-to-date list of all available iOS libraries and frameworks
 - [The Ultimate Guide To iPhone Resolutions](https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions) - Useful when you need to check iPhone resolution etc.
+- [WWDC 2020 Viewing Guide](https://useyourloaf.com/blog/wwdc-2020-viewing-guide/) - Best sessions from WWDC 2020
