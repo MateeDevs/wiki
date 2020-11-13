@@ -11,7 +11,7 @@ In the beginning of each month (before the 10th day of the month) issue an invoi
 You can take a home office once a week without any particular reason. Add your home office date to [Holidays calendar](https://calendar.google.com/calendar/b/1?cid=bWF0ZWUuY3pfMjJwNWpxODgxN3A0aWt0bGY0bTc0bGZnY2dAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) at least one day in advance. If you want to take more than one home office a week, please discuss it with your colleagues first.
  
 ## Holiday :tent:
-If you want to take holidays add the date to the [Holidays calendar](https://calendar.google.com/calendar/b/1?cid=bWF0ZWUuY3pfMjJwNWpxODgxN3A0aWt0bGY0bTc0bGZnY2dAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) at least two weeks (preferably four weeks) in advance.
+If you want to take holidays add the date to the [Holidays calendar](https://calendar.google.com/calendar/b/1?cid=bWF0ZWUuY3pfMjJwNWpxODgxN3A0aWt0bGY0bTc0bGZnY2dAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) at least two weeks (preferably four weeks) in advance. Add somebody from the management to the event as a guest so they get notification about your holidays.
 
 ## Sickness :pill:
 If you don´t feel well and you decide not to go to the office, please inform the team via Slack #General. You can also take home office in this case. If you are planning to visit a doctor, please make a note in the [Holidays calendar](https://calendar.google.com/calendar/b/1?cid=bWF0ZWUuY3pfMjJwNWpxODgxN3A0aWt0bGY0bTc0bGZnY2dAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ).
