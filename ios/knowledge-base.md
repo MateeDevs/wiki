@@ -68,6 +68,7 @@
 - [Language without Mocking Frameworks](https://blog.pragmaticengineer.com/swift-the-only-modern-language-with-no-mocking-framework/) - Why we don't have a mocking framework
 
 ## Continuous Integration
+- :star: [Git process that works](https://reallifeprogramming.com/git-process-that-works-say-no-to-gitflow-50bf2038ccf7) - Simplified GitFlow that we are using on the most of our projects
 - [Testing & CI on iOS](https://slideslive.com/38897365/testing-ci-on-ios-cz) - Nice introduction into the fastlane (13:20 - 28:45)
 - [fastlane - match](https://docs.fastlane.tools/actions/match/) - fastlane essentials 1/3 - sign your app
 - [fastlane - gym](https://docs.fastlane.tools/actions/gym/) - fastlane essentials 2/3 - build your app
