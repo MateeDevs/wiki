@@ -8,8 +8,9 @@
 ## Swift
 - :star: [Swift 3 Access Controls](https://useyourloaf.com/blog/swift-3-access-controls/) - Basics of access control in Swift
 - :star: [Swift Guide to Map Filter Reduce](https://useyourloaf.com/blog/swift-guide-to-map-filter-reduce/) - Nice guide to basic functional operators
-- :star: [Capturing Self with Swift 4.2](https://benscheirman.com/2018/09/capturing-self-with-swift-4-2/) - What is a retain cycle and how to avoid them 
+- :star: [Capturing Self with Swift 4.2](https://benscheirman.com/2018/09/capturing-self-with-swift-4-2/) - What is a retain cycle and how to avoid them
 - [Automatic Reference Counting](https://docs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html) - Memory management in Swift
+- [You don’t (always) need [weak self]](https://medium.com/flawless-app-stories/you-dont-always-need-weak-self-a778bec505ef) - When to use [weak self]
 - [The Official raywenderlich.com Swift Style Guide](https://github.com/raywenderlich/swift-style-guide) - Our default Swift style guide
 - [Swift Documentation](https://nshipster.com/swift-documentation/) - How to properly document your code
 
