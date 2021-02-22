@@ -2,5 +2,6 @@
 
 ## Content
 - [General](/general)
+- [Architecture](/architecture)
 - [iOS](/ios)
 - [Android](/android)
