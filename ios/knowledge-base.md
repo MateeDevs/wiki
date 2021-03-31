@@ -24,31 +24,31 @@
 
 ## App architecture
 - :star: [Good iOS Application Architecture](https://slideslive.com/38897361/good-ios-application-architecture-en) - Overview of commonly used app architectures ([updated version from 2018](https://youtu.be/PdkWjdKOqfo))
+- :star: [Clean Architecture and MVVM on iOS](https://tech.olx.com/clean-architecture-and-mvvm-on-ios-c9d167d9f5b3) - Introduction into Clean Architecture principles
 - :star: [RxSwift + MVVM: how to feed ViewModels](https://medium.com/blablacar-tech/rxswift-mvvm-66827b8b3f10) - How to design ViewModels with inputs and outputs
 - :star: [Using protocol compositon for dependency injection](http://merowing.info/2017/04/using-protocol-compositon-for-dependency-injection/) - Simple dependency injection with Dependencies typealias
 - [Avoiding singletons in Swift](https://www.swiftbysundell.com/articles/avoiding-singletons-in-swift/) - Why singletons are bad and how to avoid them
-- [Clean Architecture and MVVM on iOS](https://tech.olx.com/clean-architecture-and-mvvm-on-ios-c9d167d9f5b3) - Introduction into Clean Architecture principles
 - [fantastic ios architecture](https://github.com/onmyway133/fantastic-ios-architecture) - Exhaustive list of all iOS app architecture related materials
 
 ## Flow controllers
 - :star: [Improve your iOS Architecture with FlowControllers](http://merowing.info/2016/01/improve-your-ios-architecture-with-flowcontrollers/) - Introduction into the flow controllers concept
-- :star: [Flow Coordinators in iOS](https://medium.com/@dkw5877/flow-coordinators-333ed64f3dd) - More in-depth article about the flow controllers
+- [Flow Coordinators in iOS](https://medium.com/@dkw5877/flow-coordinators-333ed64f3dd) - More in-depth article about the flow controllers
 - [Back Buttons and Coordinators](http://khanlou.com/2017/05/back-buttons-and-coordinators/) - How to handle back buttons in flow controllers
 
 ## Database
 - :star: [Realm property cheatsheet](https://realm.io/docs/swift/latest/#property-cheatsheet) - How to define different properties in Realm models
-- :star: [Examples of NSPredicate usage](https://nspredicate.xyz/) - When you need to adjust your database query
+- [Examples of NSPredicate usage](https://nspredicate.xyz/) - When you need to adjust your database query
 - [NSPredicate Cheatsheet](https://academy.realm.io/posts/nspredicate-cheatsheet/) - List of all operators usable in database queries
 
 ## UI
 - :star: [Solving duplicated / repeating cells in Table view](https://fluffy.es/solve-duplicated-cells/) - How cell reusing in UITableView works
 - :star: [Scroll View Layouts With Interface Builder](https://useyourloaf.com/blog/scroll-view-layouts-with-interface-builder/) - Proper way to setup UIScrollView
-- :star: [How To Adopt Dark Mode In Your iOS App](https://www.fivestars.blog/code/ios-dark-mode-how-to.html) - Everything you need to know about the dark-mode
+- :star: [Container View Controllers](https://useyourloaf.com/blog/container-view-controllers/) - How to split massive view controller into multiple view controllers
 - [Self-sizing Child Views](https://useyourloaf.com/blog/self-sizing-child-views/) - Automatic height adjustment when composing views
-- [Container View Controllers](https://useyourloaf.com/blog/container-view-controllers/) - How to split massive view controller into multiple view controllers
 - [Auto layout magic: Content sizing priorities](https://krakendev.io/blog/autolayout-magic-like-harry-potter-but-real) - Content hugging vs content compression resistance
-- [Easy Skeezy Date Formatting for Swift and Objective-C](https://nsdateformatter.com/) - Helper for checking your date formatting
+- [How To Adopt Dark Mode In Your iOS App](https://www.fivestars.blog/code/ios-dark-mode-how-to.html) - Everything you need to know about the dark-mode
 - [Backwards compatibility for iOS 13 system colors](https://noahgilmore.com/blog/dark-mode-uicolor-compatibility/) - How to use new dark-mode colors on older versions of iOS
+- [Easy Skeezy Date Formatting for Swift and Objective-C](https://nsdateformatter.com/) - Helper for checking your date formatting
 
 ## SwiftUI
 - [SwiftUI by Example](https://www.hackingwithswift.com/quick-start/swiftui/) - Biggest collection of SwiftUI tutorials and examples
@@ -69,7 +69,7 @@
 - [Language without Mocking Frameworks](https://blog.pragmaticengineer.com/swift-the-only-modern-language-with-no-mocking-framework/) - Why we don't have a mocking framework
 
 ## Continuous Integration
-- :star: [Git process that works](https://reallifeprogramming.com/git-process-that-works-say-no-to-gitflow-50bf2038ccf7) - Simplified GitFlow that we are using on the most of our projects
+- :star: [Git process that works](https://reallifeprogramming.com/git-process-that-works-say-no-to-gitflow-50bf2038ccf7) - Simplified GitFlow that we are using on most of our projects
 - [Testing & CI on iOS](https://slideslive.com/38897365/testing-ci-on-ios-cz) - Nice introduction into the fastlane (13:20 - 28:45)
 - [fastlane - match](https://docs.fastlane.tools/actions/match/) - fastlane essentials 1/3 - sign your app
 - [fastlane - gym](https://docs.fastlane.tools/actions/gym/) - fastlane essentials 2/3 - build your app
