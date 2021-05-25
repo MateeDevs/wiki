@@ -58,6 +58,7 @@
 
 ## Debugging
 - :star: [Intermediate Debugging with Xcode 8](https://www.raywenderlich.com/721-intermediate-debugging-with-xcode-8) - Introduction to Xcode Debugger
+- :star: [Breakpoints in Proxyman](https://proxyman.io/blog/2019/08/Use-Breakpoint-to-intercept-and-edit-request-response-on-iOS-app.html) - How to intercept and edit HTTP request/response
 - [Locating the source of a memory leak](https://medium.com/@xcadaverx/locating-the-source-of-a-memory-leak-712667bf8cd5) - How to find memory leaks in Xcode Debugger
 - [LifetimeTracker](https://github.com/krzysztofzablocki/LifetimeTracker) - Simple library for finding memory leaks and retain cycles
 
