@@ -27,6 +27,7 @@
 - :star: [Clean Architecture and MVVM on iOS](https://tech.olx.com/clean-architecture-and-mvvm-on-ios-c9d167d9f5b3) - Introduction into Clean Architecture principles
 - :star: [RxSwift + MVVM: how to feed ViewModels](https://medium.com/blablacar-tech/rxswift-mvvm-66827b8b3f10) - How to design ViewModels with inputs and outputs
 - :star: [Using protocol compositon for dependency injection](http://merowing.info/2017/04/using-protocol-compositon-for-dependency-injection/) - Simple dependency injection with Dependencies typealias
+- :star: [The structure of a Swift Package](https://tiagolopes.blog/2022/01/16/the-structure-of-a-swift-package) - How to create Swift Packages
 - [Avoiding singletons in Swift](https://www.swiftbysundell.com/articles/avoiding-singletons-in-swift/) - Why singletons are bad and how to avoid them
 - [fantastic ios architecture](https://github.com/onmyway133/fantastic-ios-architecture) - Exhaustive list of all iOS app architecture related materials
 
@@ -40,7 +41,13 @@
 - [Examples of NSPredicate usage](https://nspredicate.xyz/) - When you need to adjust your database query
 - [NSPredicate Cheatsheet](https://academy.realm.io/posts/nspredicate-cheatsheet/) - List of all operators usable in database queries
 
-## UI
+## SwiftUI
+- :star: [Introducing SwiftUI](https://developer.apple.com/tutorials/swiftui) - Official SwiftUI tutorial from Apple
+- [SwiftUI by Example](https://www.hackingwithswift.com/quick-start/swiftui/) - Biggest collection of SwiftUI tutorials and examples
+- [SwiftUI Architectures: Model-View, Redux & MVVM](https://quickbirdstudios.com/blog/swiftui-architecture-redux-mvvm/) - Overview of using common app architectures with SwiftUI
+- [MovieSwiftUI](https://github.com/Dimillian/MovieSwiftUI) - Example app using SwiftUI and Combine
+
+## UIKit
 - :star: [Solving duplicated / repeating cells in Table view](https://fluffy.es/solve-duplicated-cells/) - How cell reusing in UITableView works
 - :star: [Scroll View Layouts With Interface Builder](https://useyourloaf.com/blog/scroll-view-layouts-with-interface-builder/) - Proper way to setup UIScrollView
 - :star: [Container View Controllers](https://useyourloaf.com/blog/container-view-controllers/) - How to split massive view controller into multiple view controllers
@@ -49,12 +56,6 @@
 - [How To Adopt Dark Mode In Your iOS App](https://www.fivestars.blog/code/ios-dark-mode-how-to.html) - Everything you need to know about the dark-mode
 - [Backwards compatibility for iOS 13 system colors](https://noahgilmore.com/blog/dark-mode-uicolor-compatibility/) - How to use new dark-mode colors on older versions of iOS
 - [Easy Skeezy Date Formatting for Swift and Objective-C](https://nsdateformatter.com/) - Helper for checking your date formatting
-
-## SwiftUI
-- [SwiftUI by Example](https://www.hackingwithswift.com/quick-start/swiftui/) - Biggest collection of SwiftUI tutorials and examples
-- [Introducing SwiftUI](https://developer.apple.com/tutorials/swiftui) - Official SwiftUI tutorial from Apple
-- [SwiftUI Architectures: Model-View, Redux & MVVM](https://quickbirdstudios.com/blog/swiftui-architecture-redux-mvvm/) - Overview of using common app architectures with SwiftUI
-- [MovieSwiftUI](https://github.com/Dimillian/MovieSwiftUI) - Example app using SwiftUI and Combine
 
 ## Debugging
 - :star: [Intermediate Debugging with Xcode 8](https://www.raywenderlich.com/721-intermediate-debugging-with-xcode-8) - Introduction to Xcode Debugger
