@@ -2,7 +2,8 @@
 
 | Repository                                                                    | Description                                     |
 |-------------------------------------------------------------------------------|-------------------------------------------------|
-| [devstack-ios-app](https://github.com/MateeDevs/devstack-ios-app)             | Matee DevStack - iOS app                        |
+| [devstack-native-app](https://github.com/MateeDevs/devstack-native-app)       | Matee DevStack - Kotlin Multiplatform monorepo  |
+| [devstack-ios-app](https://github.com/MateeDevs/devstack-ios-app)             | Matee DevStack - iOS repo (deprecated)          |
 | [devstack-ios-templates](https://github.com/MateeDevs/devstack-ios-templates) | Matee DevStack - Xcode templates                |
 | [devstack-server](https://github.com/MateeDevs/devstack-server)               | Matee DevStack - server with test API           |
 | [twine-localization](https://github.com/MateeDevs/twine-localization)         | Localization files for Twine                    |

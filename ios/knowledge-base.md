@@ -1,7 +1,7 @@
 # Matee Wiki - iOS - Knowledge base
 
 ## Introduction
-- This a curated list of links to articles, blogposts and examples related to the [Matee iOS DevStack](https://github.com/MateeDevs/devstack-ios-app).
+- This a curated list of links to articles, blogposts and examples related to the iOS part of [Matee DevStack](https://github.com/MateeDevs/devstack-native-app).
 - Those marked with :star: are a must-read for everybody! :nerd_face:
 - Pull Requests are always welcomed. :wave:
 
