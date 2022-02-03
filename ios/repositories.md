@@ -10,3 +10,4 @@
 | [ios-push-tester](https://github.com/MateeDevs/ios-push-tester)               | iOS push notifications tester                   |
 | [ios-asset-generator](https://github.com/MateeDevs/ios-asset-generator)       | iOS asset generator                             |
 | [ios-playgrounds](https://github.com/MateeDevs/ios-playgrounds)               | iOS playgrounds with interesting Swift features |
+| [ci-setup](https://github.com/MateeDevs/ci-setup)                             | Utilities for Matee CI server                   |
