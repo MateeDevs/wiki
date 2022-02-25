@@ -14,20 +14,18 @@
 - [The Official raywenderlich.com Swift Style Guide](https://github.com/raywenderlich/swift-style-guide) - Our default Swift style guide
 - [Swift Documentation](https://nshipster.com/swift-documentation/) - How to properly document your code
 
-## RxSwift
-- :star: [Thinking in RxSwift](http://adamborek.com/thinking-rxswift/) - Cool introduction into RxSwift
-- :star: [Memory management in RxSwift – DisposeBag](http://adamborek.com/memory-managment-rxswift/) - How disposing in RxSwift works
-- :star: [Better Error Handling With CompactMap](https://medium.com/@michaellong/rxswift-better-error-handling-with-compactmap-48a5d314d0f1) - How to handle errors easily in RxSwift
-- [Surviving RxSwift](https://medium.com/better-programming/surviving-rxswift-d6bfe562fb22) - Best practices to not get overwhelmed by RxSwift
-- [RxSwift Made Easy: Working with Subjects](https://medium.com/swift2go/rxswift-part-2-working-with-subjects-34e35a058a2c) - Everything you need to know about RxSwift subjects
-- [Top mistakes in RxSwift you want to avoid](http://adamborek.com/top-7-rxswift-mistakes/) - Just don't do this!
+## Async / await
+- :star: [Async await in Swift](https://www.avanderlee.com/swift/async-await) - Introduction into async / await in Swift
+- :star: [Using the MainActor attribute](https://www.swiftbysundell.com/articles/the-main-actor-attribute) - Introduction to `@MainActor` attribute
+- [RxSwift Concurrency](https://github.com/ReactiveX/RxSwift/blob/main/Documentation/SwiftConcurrency.md) - How to consume RxSwift using async / await
 
 ## App architecture
 - :star: [Good iOS Application Architecture](https://slideslive.com/38897361/good-ios-application-architecture-en) - Overview of commonly used app architectures ([updated version from 2018](https://youtu.be/PdkWjdKOqfo))
 - :star: [Clean Architecture and MVVM on iOS](https://tech.olx.com/clean-architecture-and-mvvm-on-ios-c9d167d9f5b3) - Introduction into Clean Architecture principles
-- :star: [RxSwift + MVVM: how to feed ViewModels](https://medium.com/blablacar-tech/rxswift-mvvm-66827b8b3f10) - How to design ViewModels with inputs and outputs
-- :star: [Using protocol compositon for dependency injection](http://merowing.info/2017/04/using-protocol-compositon-for-dependency-injection/) - Simple dependency injection with Dependencies typealias
-- :star: [The structure of a Swift Package](https://tiagolopes.blog/2022/01/16/the-structure-of-a-swift-package) - How to create Swift Packages
+- :star: [Using protocol composition for dependency injection](http://merowing.info/2017/04/using-protocol-compositon-for-dependency-injection/) - Simple dependency injection with Dependencies typealias
+- :star: [SwiftUI is Model View Intent (MVI)](https://zoewave.medium.com/swiftui-is-model-view-intent-mvi-fd142b12fc81) - Introduction into Model-View-Intent architecture
+- [SwiftUI - MVI Architecture](https://betterprogramming.pub/mvi-architecture-for-swiftui-apps-cff44428394) - Example of using MVI with SwiftUI
+- [The structure of a Swift Package](https://tiagolopes.blog/2022/01/16/the-structure-of-a-swift-package) - How to create Swift Packages
 - [Avoiding singletons in Swift](https://www.swiftbysundell.com/articles/avoiding-singletons-in-swift/) - Why singletons are bad and how to avoid them
 - [fantastic ios architecture](https://github.com/onmyway133/fantastic-ios-architecture) - Exhaustive list of all iOS app architecture related materials
 
@@ -36,16 +34,12 @@
 - [Flow Coordinators in iOS](https://medium.com/@dkw5877/flow-coordinators-333ed64f3dd) - More in-depth article about the flow controllers
 - [Back Buttons and Coordinators](http://khanlou.com/2017/05/back-buttons-and-coordinators/) - How to handle back buttons in flow controllers
 
-## Database
-- :star: [Realm property cheatsheet](https://realm.io/docs/swift/latest/#property-cheatsheet) - How to define different properties in Realm models
-- [Examples of NSPredicate usage](https://nspredicate.xyz/) - When you need to adjust your database query
-- [NSPredicate Cheatsheet](https://academy.realm.io/posts/nspredicate-cheatsheet/) - List of all operators usable in database queries
-
 ## SwiftUI
 - :star: [Introducing SwiftUI](https://developer.apple.com/tutorials/swiftui) - Official SwiftUI tutorial from Apple
+- :star: [SwiftUI State Management Fundamentals](https://mykola-harmash.medium.com/swiftui-state-management-fundamentals-5b28d2522e4d) - A beginner’s guide to @State, @StateObject and @ObservedObject
+- [Fucking SwiftUI](https://fuckingswiftui.com) - Cheatsheet of UIKit equivalents in SwiftUI
 - [SwiftUI by Example](https://www.hackingwithswift.com/quick-start/swiftui/) - Biggest collection of SwiftUI tutorials and examples
 - [SwiftUI Architectures: Model-View, Redux & MVVM](https://quickbirdstudios.com/blog/swiftui-architecture-redux-mvvm/) - Overview of using common app architectures with SwiftUI
-- [MovieSwiftUI](https://github.com/Dimillian/MovieSwiftUI) - Example app using SwiftUI and Combine
 
 ## UIKit
 - :star: [Solving duplicated / repeating cells in Table view](https://fluffy.es/solve-duplicated-cells/) - How cell reusing in UITableView works
@@ -54,8 +48,11 @@
 - [Self-sizing Child Views](https://useyourloaf.com/blog/self-sizing-child-views/) - Automatic height adjustment when composing views
 - [Auto layout magic: Content sizing priorities](https://krakendev.io/blog/autolayout-magic-like-harry-potter-but-real) - Content hugging vs content compression resistance
 - [How To Adopt Dark Mode In Your iOS App](https://www.fivestars.blog/code/ios-dark-mode-how-to.html) - Everything you need to know about the dark-mode
-- [Backwards compatibility for iOS 13 system colors](https://noahgilmore.com/blog/dark-mode-uicolor-compatibility/) - How to use new dark-mode colors on older versions of iOS
-- [Easy Skeezy Date Formatting for Swift and Objective-C](https://nsdateformatter.com/) - Helper for checking your date formatting
+
+## Database
+- :star: [Realm property cheatsheet](https://realm.io/docs/swift/latest/#property-cheatsheet) - How to define different properties in Realm models
+- [Examples of NSPredicate usage](https://nspredicate.xyz/) - When you need to adjust your database query
+- [NSPredicate Cheatsheet](https://academy.realm.io/posts/nspredicate-cheatsheet/) - List of all operators usable in database queries
 
 ## Debugging
 - :star: [Intermediate Debugging with Xcode 8](https://www.raywenderlich.com/721-intermediate-debugging-with-xcode-8) - Introduction to Xcode Debugger
@@ -65,8 +62,6 @@
 
 ## Testing
 - :star: [Testing iOS Apps](http://merowing.info/2017/01/testing-ios-apps/) - Basic overview of testing iOS apps
-- :star: [RxTest & MVVM](https://benoitpasquier.com/how-to-use-rxtests-to-test-mvvm/) - How to test ViewModels with RxTests
-- [Testing Your RxSwift Code](https://www.raywenderlich.com/7408-testing-your-rxswift-code) - More complex RxSwift testing tutorial
 - [Test Driven Development Tutorial for iOS](https://www.raywenderlich.com/5522-test-driven-development-tutorial-for-ios-getting-started) - How to start with TDD
 - [Language without Mocking Frameworks](https://blog.pragmaticengineer.com/swift-the-only-modern-language-with-no-mocking-framework/) - Why we don't have a mocking framework
 
@@ -82,4 +77,15 @@
 - [iOS-factor](https://ios-factor.com/) - Set of best practices for writing iOS apps
 - [Awesome iOS](https://github.com/vsouza/awesome-ios) - Probably the biggest up-to-date list of all available iOS libraries and frameworks
 - [The Ultimate Guide To iPhone Resolutions](https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions) - Useful when you need to check iPhone resolution etc.
-- [WWDC 2020 Viewing Guide](https://useyourloaf.com/blog/wwdc-2020-viewing-guide/) - Best sessions from WWDC 2020
+
+## RxSwift (deprecated)
+- :warning: We are replacing RxSwift with async / await and Combine
+- :star: [Thinking in RxSwift](http://adamborek.com/thinking-rxswift/) - Cool introduction into RxSwift
+- :star: [Memory management in RxSwift – DisposeBag](http://adamborek.com/memory-managment-rxswift/) - How disposing in RxSwift works
+- :star: [Better Error Handling With CompactMap](https://medium.com/@michaellong/rxswift-better-error-handling-with-compactmap-48a5d314d0f1) - How to handle errors easily in RxSwift
+- :star: [RxSwift + MVVM: how to feed ViewModels](https://medium.com/blablacar-tech/rxswift-mvvm-66827b8b3f10) - How to design RxSwift based ViewModels with inputs and outputs
+- [Surviving RxSwift](https://medium.com/better-programming/surviving-rxswift-d6bfe562fb22) - Best practices to not get overwhelmed by RxSwift
+- [RxSwift Made Easy: Working with Subjects](https://medium.com/swift2go/rxswift-part-2-working-with-subjects-34e35a058a2c) - Everything you need to know about RxSwift subjects
+- [Top mistakes in RxSwift you want to avoid](http://adamborek.com/top-7-rxswift-mistakes/) - Just don't do this!
+- [RxTest & MVVM](https://benoitpasquier.com/how-to-use-rxtests-to-test-mvvm/) - How to test ViewModels with RxTests
+- [Testing Your RxSwift Code](https://www.raywenderlich.com/7408-testing-your-rxswift-code) - More complex RxSwift testing tutorial
