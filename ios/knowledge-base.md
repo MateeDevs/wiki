@@ -38,6 +38,7 @@
 - :star: [Introducing SwiftUI](https://developer.apple.com/tutorials/swiftui) - Official SwiftUI tutorial from Apple
 - :star: [SwiftUI State Management Fundamentals](https://mykola-harmash.medium.com/swiftui-state-management-fundamentals-5b28d2522e4d) - A beginner’s guide to @State, @StateObject and @ObservedObject
 - :star: [Encapsulating SwiftUI view styles](https://www.swiftbysundell.com/articles/encapsulating-swiftui-view-styles/) - Introduction into SwiftUI encapsulation and modifiers
+- [Redacted View Modifier](https://www.avanderlee.com/swiftui/redacted-view-modifier/) - How to use the Redacted View Modifier in SwiftUI to create skeletons
 - [Fucking SwiftUI](https://fuckingswiftui.com) - Cheatsheet of UIKit equivalents in SwiftUI
 - [SwiftUI by Example](https://www.hackingwithswift.com/quick-start/swiftui/) - Biggest collection of SwiftUI tutorials and examples
 - [SwiftUI Architectures: Model-View, Redux & MVVM](https://quickbirdstudios.com/blog/swiftui-architecture-redux-mvvm/) - Overview of using common app architectures with SwiftUI
