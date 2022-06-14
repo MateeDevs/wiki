@@ -22,12 +22,19 @@
 ## App architecture
 - :star: [Good iOS Application Architecture](https://slideslive.com/38897361/good-ios-application-architecture-en) - Overview of commonly used app architectures ([updated version from 2018](https://youtu.be/PdkWjdKOqfo))
 - :star: [Clean Architecture and MVVM on iOS](https://tech.olx.com/clean-architecture-and-mvvm-on-ios-c9d167d9f5b3) - Introduction into Clean Architecture principles
-- :star: [Using protocol composition for dependency injection](http://merowing.info/2017/04/using-protocol-compositon-for-dependency-injection/) - Simple dependency injection with Dependencies typealias
 - :star: [SwiftUI is Model View Intent (MVI)](https://zoewave.medium.com/swiftui-is-model-view-intent-mvi-fd142b12fc81) - Introduction into Model-View-Intent architecture
 - [SwiftUI - MVI Architecture](https://betterprogramming.pub/mvi-architecture-for-swiftui-apps-cff44428394) - Example of using MVI with SwiftUI
-- [The structure of a Swift Package](https://tiagolopes.blog/2022/01/16/the-structure-of-a-swift-package) - How to create Swift Packages
-- [Avoiding singletons in Swift](https://www.swiftbysundell.com/articles/avoiding-singletons-in-swift/) - Why singletons are bad and how to avoid them
 - [fantastic ios architecture](https://github.com/onmyway133/fantastic-ios-architecture) - Exhaustive list of all iOS app architecture related materials
+
+## Dependency Injection
+- :star: [Resolver for iOS Dependency Injection](https://www.raywenderlich.com/22203552-resolver-for-ios-dependency-injection-getting-started) - Explanation of Dependency Injection and its example using Resolver
+- [Avoiding singletons in Swift](https://www.swiftbysundell.com/articles/avoiding-singletons-in-swift/) - Why singletons are bad and how to avoid them
+- [Using protocol composition for dependency injection](http://merowing.info/2017/04/using-protocol-compositon-for-dependency-injection/) - Simple dependency injection with Dependencies typealias
+
+## Modularisation
+- :star: [Modular Architecture in iOS](https://tech.olx.com/modular-architecture-in-ios-c1a1e3bff8e9) - Introduction into principles of modularisation
+- [The structure of a Swift Package](https://tiagolopes.blog/2022/01/16/the-structure-of-a-swift-package) - How to create Swift Packages
+- [PresentationDomainDataLayering](https://martinfowler.com/bliki/PresentationDomainDataLayering.html) - Different approaches to modularisation in Clean Architecture
 
 ## Flow controllers
 - :star: [Improve your iOS Architecture with FlowControllers](http://merowing.info/2016/01/improve-your-ios-architecture-with-flowcontrollers/) - Introduction into the flow controllers concept
@@ -58,7 +65,7 @@
 
 ## Debugging
 - :star: [Intermediate Debugging with Xcode 8](https://www.raywenderlich.com/721-intermediate-debugging-with-xcode-8) - Introduction to Xcode Debugger
-- :star: [Breakpoints in Proxyman](https://proxyman.io/blog/2019/08/Use-Breakpoint-to-intercept-and-edit-request-response-on-iOS-app.html) - How to intercept and edit HTTP request/response
+- :star: [Breakpoints in Proxyman](https://proxyman.io/posts/2019-09-15-Use-Breakpoint-to-intercept-and-edit-request-response-on-iOS-app) - How to intercept and edit HTTP request/response
 - [Locating the source of a memory leak](https://medium.com/@xcadaverx/locating-the-source-of-a-memory-leak-712667bf8cd5) - How to find memory leaks in Xcode Debugger
 - [LifetimeTracker](https://github.com/krzysztofzablocki/LifetimeTracker) - Simple library for finding memory leaks and retain cycles
 
@@ -66,6 +73,7 @@
 - :star: [Testing iOS Apps](http://merowing.info/2017/01/testing-ios-apps/) - Basic overview of testing iOS apps
 - [Test Driven Development Tutorial for iOS](https://www.raywenderlich.com/5522-test-driven-development-tutorial-for-ios-getting-started) - How to start with TDD
 - [Language without Mocking Frameworks](https://blog.pragmaticengineer.com/swift-the-only-modern-language-with-no-mocking-framework/) - Why we don't have a mocking framework
+- [Code Generating Swift Mocks with Sourcery](https://www.vadimbulavin.com/mocking-in-swift-using-sourcery/) - How to generate mocks
 
 ## Continuous Integration
 - :star: [Git process that works](https://reallifeprogramming.com/git-process-that-works-say-no-to-gitflow-50bf2038ccf7) - Simplified GitFlow that we are using on most of our projects
