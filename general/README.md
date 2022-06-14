@@ -14,6 +14,7 @@
 
 ## Home Office :house:
 - We prefer to meet in person.
+- We are using [Joan](https://office.getjoan.com) for desk booking in our lovely office.
 - However, there are no limitations to the home office as long as it doesn't affect the projects you are working on.
  
 ## Holiday :tent:
@@ -21,7 +22,7 @@
 - In case of longer absence (more than one week), please consult with your team leader or project manager.
 
 ## Sickness :pill:
-- If you don't feel well and decide not to go to the office, please inform the team via #general channel on Slack.
+- If you don't feel well and decide not to work, please inform the team via #general channel on Slack.
 - Same if you are planning to visit a doctor.
 
 ## Review :handshake:
