@@ -34,6 +34,10 @@
 - It is possible to order a MultiSport card for you.
 - Just ask your team leader about the details.
 
+## Articles and talks :nerd_face:
+- We are trying to be active in a development community, and we hope you will help us with that.
+- Small motivation bonuses are as follows: 1k CZK for an article and 2.5k CZK for a talk.
+
 ## Rewards for recommendation :money_mouth_face:
 - We are always looking for new talented developers, so don't be shy and recommend your friend 
 - Rewards are as follows: 20k CZK for junior / 40k CZK for medior / 80k CZK for senior
