@@ -1,11 +1,11 @@
 # Development rules & recommendations
 
-- Here you can find information about managing JIRA issues, git repos, GitHub pull requests, etc.
-- Mainly, you will information about our codebase here
+- Here, you can find information about managing JIRA issues, git repos, GitHub pull requests, etc.
+- Mainly, you will find information about our codebase here
 
 ## JIRA tasks
 - Our projects usually have a JIRA project associated with it
-- Creating issues, managing them can differ from project to project
+- Creating issues and managing them can differ from project to project
 
 ## Git & GitHub
 - We usually create a git branch for every JIRA issue, e.g. `git checkout -b feature/MUV-XXX-some-title` (`MUV` being the project code on JIRA)
@@ -25,7 +25,7 @@
     - **References**: Add links to the stuff that your PR is related to, usually it's at least the JIRA issue and chili tasks, if available
     - You can add more sections if you see fit.
 - Once you're done with the PR description, you can add reviewers – these would usually be the people who are working on the project with you
-- Always try to react to the reviewers' messages, so that they can later see how you handled them
+- Always try to react to the reviewers' messages so that they can later see how you handled them
 - When you're done with all the review comments, request a re-review, so that the reviewers can see that you've fixed all their comments and that the code is ready for a re-review
 - Once the PR is ready to be merged, it should be merged by you, the PR creator
 
@@ -42,7 +42,7 @@
 #### Flow Controllers
 - Flow controllers control the flow of the app
 - All feature parts of the app should have their own flow controller, such as `OnboardingFlowController`, `HomeFlowController` etc.
-- `AppFlowController` is the top-level flow controller and it's defined in the application layer
+- `AppFlowController` is the top-level flow controller, and it's defined in the application layer
 - All flow controllers are a subclass of the `FlowController` class, which provides a common interface for all flow controllers
 - Flow controllers therefore inherit the `handleFlow(_:)` method, which should be used in the view models to handle the flow
 - `handleFlow(_:)` takes a parameter of type `Flow`, which is just an empty protocol, but all subflow enums (`OnboardingFlow`, `HomeFlow`, ...), which come with the feature flow controllers (`OnboardingFlowController`, `HomeFlowController`, ...), conform to this protocol, so that they can be used as the parameter of that `handleFlow(_:)` method
@@ -247,7 +247,7 @@ public struct User {
 
 #### Use Cases and their implementations
 - Use cases represent the business logic functionalities
-- The presentation layer only calls these use cases and that's where it's responsibility ends
+- The presentation layer only calls these use cases, and that's where its responsibility ends
 - Use cases can call repository functions and other use cases
 - Each Use Case is represented by a protocol defining the `execute` function, allowing us to create more implementations, mocks, etc.
 - Dependency Injection is then responsible for selecting the correct use case implementation
