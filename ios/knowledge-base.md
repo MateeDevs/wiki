@@ -59,7 +59,7 @@
 - [How To Adopt Dark Mode In Your iOS App](https://www.fivestars.blog/code/ios-dark-mode-how-to.html) - Everything you need to know about the dark-mode
 
 ## Database
-- :star: [Realm property cheatsheet](https://realm.io/docs/swift/latest/#property-cheatsheet) - How to define different properties in Realm models
+- :star: [Realm property cheatsheet](https://www.mongodb.com/docs/realm/sdk/swift/model-data/define-model/supported-types/#property-cheat-sheet) - How to define different properties in Realm models
 - [Examples of NSPredicate usage](https://nspredicate.xyz/) - When you need to adjust your database query
 - [NSPredicate Cheatsheet](https://academy.realm.io/posts/nspredicate-cheatsheet/) - List of all operators usable in database queries
 
