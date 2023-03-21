@@ -22,7 +22,7 @@
     - **Description**: Try to sum up what the PR introduces
     - **What's new**: Describe what this PR changes
     - **What's missing**: Try to sum up stuff related to the PR that you feel should be further developed or what you didn't have time for
-    - **References**: Add links to the stuff that your PR is related to, usually it's at least the JIRA issue and chili tasks, if available
+    - **References**: Add links to the stuff that your PR is related to, usually it's at least the JIRA issue or other project specific tasks
     - You can add more sections if you see fit.
 - Once you're done with the PR description, you can add reviewers – these would usually be the people who are working on the project with you
 - Always try to react to the reviewers' messages so that they can later see how you handled them
@@ -30,7 +30,6 @@
 - Once the PR is ready to be merged, it should be merged by you, the PR creator
 
 ## Architecture
-
 - The goal for our projects is to follow the clean architecture and to use Kotlin Multiplatform Mobile
 - We have recently [started using advanced modularisation](https://github.com/MateeDevs/devstack-native-app/pull/31)
 
@@ -210,7 +209,7 @@ final class SomeViewModel: BaseViewModel, ViewModel, ObservableObject {
     }
 }
 ```
-- the `executeTask(_:)` function serves to handle tasks in each view model, so that all tasks will be cancelled when the view disappears
+- The `executeTask(_:)` function serves to handle tasks in each view model, so that all tasks will be cancelled when the view disappears
 
 ### Domain Layer
 - Reflects the whole business logic of the application via DomainModels and UseCases
@@ -314,6 +313,40 @@ public protocol AuthRepository {
 - `Providers` define provider protocols and implementations
 - You should also stick with CRUD naming in the entire data layer
 
+#### Repository implementations
+- Repository implementations use providers and add some business logic
+- They're independent of the specific provider implementation
+- Repository implementation example:
+```
+public struct AuthRepositoryImpl {
+
+    private let databaseProvider: DatabaseProvider
+    private let networkProvider: NetworkProvider
+
+    public init(
+        databaseProvider: DatabaseProvider,
+        networkProvider: NetworkProvider
+    ) {
+        self.databaseProvider = databaseProvider
+        self.networkProvider = networkProvider
+    }
+}
+
+extension AuthRepositoryImpl: AuthRepository {
+    public func login(username: String, password: String) async throws {
+        let endpoint = AuthAPI.login(username: Username, password: Password)
+        try await netowrk.request(endpoint)
+    }
+
+    public func logout() async throws {
+        try database.deleteAll()
+    }
+
+    // ...
+}
+```
+- And again, you register the repository implementation in the application layer in `DependencyInjection/Repositories+Injection.swift`
+
 #### Providers and their implementations
 - We use providers for handling each data source
 - A provider is defined as a protocol
@@ -349,40 +382,6 @@ extension RealmDatabaseProvider: DatabaseProvider {
 }
 ```
 - Just like with use cases, you register the provider implementation in the application layer in `DependencyInjection/Providers+Injection.swift`
-
-#### Repository implementations
-- Repository implementations use providers and add some business logic
-- They're independent of the specific provider implementation
-- Repository implementation example:
-```
-public struct AuthRepositoryImpl {
-
-    private let databaseProvider: DatabaseProvider
-    private let networkProvider: NetworkProvider
-
-    public init(
-        databaseProvider: DatabaseProvider,
-        networkProvider: NetworkProvider
-    ) {
-        self.databaseProvider = databaseProvider
-        self.networkProvider = networkProvider
-    }
-}
-
-extension AuthRepositoryImpl: AuthRepository {
-    public func login(username: String, password: String) async throws {
-        let endpoint = AuthAPI.login(username: Username, password: Password)
-        try await netowrk.request(endpoint)
-    }
-
-    public func logout() async throws {
-        try database.deleteAll()
-    }
-
-    // ...
-}
-```
-- And again, you register the repository implementation in the application layer in `DependencyInjection/Repositories+Injection.swift`
 
 #### DTO models
 - DTO Models used for networking, database etc. are defined under `NetworkModels`, `DatabaseModels`, ...
