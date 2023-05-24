@@ -14,7 +14,10 @@
 
 ## Home Office :house:
 - We prefer to meet in person.
-- We are using [Joan](https://office.getjoan.com) for desk booking in our lovely office.
+- We are using [Cometes](https://cometes.app) for desk booking in our lovely office.
+  - Android: https://play.google.com/store/apps/details?id=app.cometes.android
+  - iOS (Testflight): https://testflight.apple.com/join/7B5HxpIP
+  - use Slack channel #cometes for questions and ideas
 - However, there are no limitations to the home office as long as it doesn't affect the projects you are working on.
  
 ## Holiday :tent:
