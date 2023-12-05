@@ -16,7 +16,7 @@
 - We prefer to meet in person.
 - We are using [Cometes](https://cometes.app) for desk booking in our lovely office.
   - Android: https://play.google.com/store/apps/details?id=app.cometes.android
-  - iOS (Testflight): https://testflight.apple.com/join/7B5HxpIP
+  - iOS: https://apps.apple.com/cz/app/cometes/id6446503687
   - use Slack channel #cometes for questions and ideas
 - However, there are no limitations to the home office as long as it doesn't affect the projects you are working on.
  
