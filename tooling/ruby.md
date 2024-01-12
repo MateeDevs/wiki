@@ -14,10 +14,10 @@
 - Make sure you don't have any other manager/Ruby installed (`which ruby` should outputs `/usr/bin/ruby` - system Ruby)
 - If you have other manager/Ruby installed, look into the documentation of your manager and uninstall it completely 🙃
 - Install rbenv via Homebrew: `brew install rbenv ruby-build` (if you don't have Homebrew go to https://brew.sh/)
-- Now we have to make sure that both Homebrew and rbenv are loaded into your non-interactive shells
-- This can be done by modifying your `~/.zshenv` file and restarting Terminal (more about zsh configuration [here](/tooling/zsh.md))
-- For Homebrew: `echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zshenv`
-- For rbenv: `echo 'eval "$(rbenv init -)"' >> ~/.zshenv`
+- Now we have to make sure that both Homebrew and rbenv are loaded into your shell
+- This can be done by modifying your `~/.zshrc` + `~/.zshenv` files and restarting Terminal (more about zsh configuration [here](/tooling/zsh.md))
+- For Homebrew: `echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zshrc`
+- For rbenv: `echo 'eval "$(rbenv init - zsh)"' >> ~/.zshrc && echo 'export PATH="$HOME/.rbenv/shims:${PATH}"' >> ~/.zshenv`
 - Install and set a required Ruby version, for example: `rbenv install 3.2.2 && rbenv global 3.2.2`
 - Now you can install and use required gems, for example: `gem install twine` 🤗
 
