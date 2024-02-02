@@ -3,3 +3,4 @@
 ## Content
 - [Ruby](/tooling/ruby.md)
 - [zsh](/tooling/zsh.md)
+- [SSH](/tooling/ssh.md)
