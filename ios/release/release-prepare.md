@@ -14,7 +14,14 @@
 
 ![app-id](img/app-id.png)
 
-## 2) Configure in Xcode
+## 2) Create apps on App Store Connect
+- For every App ID create an app on [App Store Connect](https://appstoreconnect.apple.com/apps)
+- Select App ID from the dropdown as Bundle ID and in SKU just re-write the App ID
+- If you already know Name & Primary Language great! If not, don't worry, it can be changed later
+
+![app-store-connect](img/app-store-connect.png)
+
+## 3) Configure in Xcode
 - In Xcode go to Project - Signing & Capabilities and change Team to the client's Apple Developer account
 - Now change `Bundle Identifier` to the newly created App IDs
 - If the project is using App Groups (very likely) you have to change them as well (use convention `group.[AppID]`)
@@ -22,22 +29,22 @@
 
 ![app-id](img/xcode.png)
 
-## 3) Firebase
+## 4) Firebase
 - If the app is using Firebase, ensure that the app is connected to the client's Firebase project
 - In case you have to change a Firebase project, you have to change a `GoogleService-Info.plist` files
 - These files are usually located in the `Application/GoogleService` folder
 
-## 4) Check app's name and icon
+## 5) Check app's name and icon
 - Verify that app's name and icon are configured properly
 - App's name is usually defined as `APP_DISPLAY_NAME` in Project - Build Settings
 - App's icon is usually located in the `Application/AppIcon.xcassets` folder
-- When changing icons it is preferred to use `Single Size` option in Xcode
+- When changing icons it is preferred to use compressed PNGs (see [pngquant](https://pngquant.org)) and use `Single Size` option in Xcode
 - If you have to supply an icon for a diffent flavor (alpha/dev/etc) please modify it with [this template](img/1024.psd) (you can use [photopea.com](https://www.photopea.com/))
 
 ![app-name](img/app-name.png)
 
 ![app-icon](img/app-icon.png)
 
-## 5) Verify
+## 6) Verify
 - Build the app (preferably on a real device) and check whether everything works as expected
 - Pay special attention to things like Firebase / Push Notifications / Sign in with Apple etc
