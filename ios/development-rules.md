@@ -1,4 +1,4 @@
-# Development rules & recommendations
+# Matee Wiki - iOS - Development rules & recommendations
 
 - Here, you can find information about managing JIRA issues, git repos, GitHub pull requests, etc.
 - Mainly, you will find information about our codebase here

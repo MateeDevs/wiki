@@ -1,4 +1,6 @@
-# Common clean architecture struture
+# Matee Wiki - Architecture - Common clean architecture
+
+## Common clean architecture structure
 version: 1.0.0
 
 ![Screenshot](img/clean_common_archtieture_diagram.png)

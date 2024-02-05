@@ -1,4 +1,6 @@
-### `ucdoc` - Documentation for UseCaseResult
+# Matee Wiki - Multiplatform - Tips & Tricks
+
+## `ucdoc` - Documentation for UseCaseResult
 
 Live template for documenting usecases
 
