@@ -24,7 +24,7 @@ Host [alias]
   User [user]
   HostName [host_name]
   Port [port]
-  IdentityFile ~/.ssh/[your_public_key]
+  IdentityFile ~/.ssh/[your_private_key]
 ```
 
 ### Connect to VNC server
