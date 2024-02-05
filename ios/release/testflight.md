@@ -1,4 +1,4 @@
-# Matee Wiki - iOS - TestFlight
+# Matee Wiki - iOS - Release - TestFlight
 
 ## Internal tester
 - An user with AppleID added to the Apple Developer Account

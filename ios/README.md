@@ -6,4 +6,4 @@
 - [Knowledge base](/ios/knowledge-base.md)
 - [Development rules & recommendations](/ios/development-rules.md)
 - [Development tips](/ios/development-tips.md)
-- [TestFlight](/ios/testflight.md)
+- [Release](ios/release)
