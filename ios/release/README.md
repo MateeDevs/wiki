@@ -5,3 +5,4 @@
 - [Manual release](/ios/release/release-manual.md)
 - [Automatic release (setup CI)](/ios/release/release-ci.md)
 - [TestFlight info](/ios/release/testflight.md)
+- [Screenshots](/ios/release/screenshots.md)
