@@ -7,7 +7,7 @@
 
 ## 1) Create App IDs
 - All needed App IDs must be created on the [Apple Developer portal](https://developer.apple.com/account/resources)
-- Please use a naming convention: `[tld].[company-name].[app-name](.[flavor])`
+- Please use a naming convention: `[tld].[company_name].[app_name](.[flavor])`
 - When creating the AppID choose all needed capabilities (take a look into Xcode - Project - Signing & Capabilities)
 - More complex capabilities (like Push Notifications, Sign in with Apple, etc) must be configured properly - this can be done later but don't forget to do it!
 - You can bump into `An AppID with Identifier 'x' is not available.` error - it means that the AppID is already used by some other Apple Developer account (usually Matee in this case) - you have to delete it there first
@@ -33,12 +33,12 @@
 ## 4) Firebase
 - If the app is using Firebase, ensure that the app is connected to the client's Firebase project
 - In case you have to change a Firebase project, you have to change a `GoogleService-Info.plist` files
-- These files are usually located in the `Application/GoogleService` folder
+- These files are usually located in the `Application/GoogleService` directory
 
 ## 5) Check app's name and icon
 - Verify that app's name and icon are configured properly
 - App's name is usually defined as `APP_DISPLAY_NAME` in Project - Build Settings
-- App's icon is usually located in the `Application/AppIcon.xcassets` folder
+- App's icon is usually located in the `Application/AppIcon.xcassets` directory
 - When changing icons it is preferred to use compressed PNGs (see [pngquant](https://pngquant.org)) and use `Single Size` option in Xcode
 - If you have to supply an icon for a diffent flavor (alpha/dev/etc) please modify it with [this template](img/prepare/1024.psd) (you can use [photopea.com](https://www.photopea.com/))
 
