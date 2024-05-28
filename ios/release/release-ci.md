@@ -76,11 +76,13 @@
 - There are three prepared workflows for GH Actions - test (runs tests on commit to PR) / develop (distribute alpha on closed PR) / release (distribute alpha/beta/prod on manual trigger)
 - If you need other workflows or behavior you have to adjust as needed - you should find everything in the [GitHub Actions](https://docs.github.com/en/actions) and [fastlane](https://docs.fastlane.tools) documentations
 - To use those three prepared ensure that `APP_STORE_CONNECT_API_KEY_CONTENT` points to the GH Actions secret created in step 2 and is saved into `AuthKey_[CompanyName].p8`
-- In fastlane configuration it should be enough to modify the `AppStoreConnectAPIKey` (`id` and `issuerId` are from step 2)
+- In fastlane configuration you have to modify the `AppStoreConnectAPIKey` (`id` and `issuerId` are from step 2) and the `BuildConfiguration` (according to your project)
 
 ![xcode1](img/ci/xcode1.png)
 
 ![xcode2](img/ci/xcode2.png)
+
+![xcode2](img/ci/xcode3.png)
 
 ## 5) Rock'n'Roll :metal:
 
