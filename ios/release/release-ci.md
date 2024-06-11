@@ -1,6 +1,7 @@
 # Matee Wiki - iOS - Release - Automatic release (setup CI)
 
 ## Basic info + Prerequisities
+- It is assumed that the app is already prepared for the 1st release - see more info [here](/ios/release/release-prepare.md)
 - There are infinite options how to setup CI, this tutorial showcases just one example based on [Matee DevStack](https://github.com/MateeDevs/devstack-native-app)
 - It consists from the [fastlane](https://docs.fastlane.tools) configuration and runs via [GitHub Actions](https://docs.github.com/en/actions) on [self-hosted runners](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners) (most common setup for our projects)
 - If the project requires something else you have to adjust the setup by yourself (just UTFG :upside_down_face:)

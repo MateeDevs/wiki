@@ -1,8 +1,5 @@
 # Matee Wiki - Tooling - SSH
 
-## Matee servers
-- [CI/CD](https://github.com/MateeDevs/wiki-private/blob/main/cicd.md)
-
 ## Setup on macOS based client
 
 ### Copy your public key to the server
@@ -27,14 +24,6 @@ Host [alias]
   IdentityFile ~/.ssh/[your_private_key]
 ```
 
-### Connect to VNC server
-- Create SSH tunnel to the server: `ssh -L 5900:localhost:5900 [alias]`
-- Open VNC client: `vnc://localhost` in Safari
-- You can create an alias in your `~/.zshrc` in order to connect just by `vnc`:
-```
-alias vnc='/usr/bin/open -a Safari vnc://localhost && ssh -L 5900:localhost:5900 [alias]'
-```
-
 ## Setup on macOS based server
 
 ### Start/stop SSH 
@@ -57,6 +46,3 @@ UsePAM no
 sudo launchctl stop com.openssh.sshd
 sudo launchctl start com.openssh.sshd
 ```
-
-### Start VNC server
-- System Preferences -> Sharing -> Screen Sharing
